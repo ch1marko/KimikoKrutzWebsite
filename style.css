@@ -440,7 +440,7 @@
   
       background-image: url(/images/kimikopic.jpg);
       background-size: cover;
-      background-position: -377px;
+      background-position: -410px;
       background-repeat: no-repeat;
     }
     .modal img{
@@ -448,7 +448,7 @@
     }
   }
   
-  @media (min-width: 301px) and (max-width: 321px) {
+  /* @media (min-width: 301px) and (max-width: 321px) {
     .bg {
   
       background-image: url(/images/kimikopic.jpg);
@@ -459,7 +459,7 @@
     .modal img{
       height: 50%;
     }
-  }
+  } */
   
   @media (min-width: 322px) and (max-width: 342px) {
     .bg {
@@ -494,7 +494,7 @@
   
       background-image: url(/images/kimikopic.jpg);
       background-size: cover;
-      background-position: -340px;
+      background-position: -440px;
       background-repeat: no-repeat;
     }
     .modal img{
@@ -507,7 +507,7 @@
   
       background-image: url(/images/kimikopic.jpg);
       background-size: cover;
-      background-position: -335px;
+      background-position: -365px;
       background-repeat: no-repeat;
     }
     .modal img{
@@ -520,7 +520,7 @@
   
       background-image: url(/images/kimikopic.jpg);
       background-size: cover;
-      background-position: -325px;
+      background-position: -512px;
       background-repeat: no-repeat;
     }
     .modal img{
@@ -554,7 +554,7 @@
   
       background-image: url(/images/kimikopic.jpg);
       background-size: cover;
-      background-position: -300px;
+      background-position: -550px;
       background-repeat: no-repeat;
     }
   
@@ -569,13 +569,13 @@
   
   
   @media (min-width: 415px) and (max-width: 439px) {
-    .bg {
+    /* .bg {
   
       background-image: url(/images/kimikopic.jpg);
       background-size: cover;
       background-position: -295px;
       background-repeat: no-repeat;
-    }
+    } */
   
     #about-text {
       font-size: 10px;
@@ -586,13 +586,13 @@
   }
   
   @media (min-width: 440px) and (max-width: 460px) {
-    .bg {
+    /* .bg {
   
       background-image: url(/images/kimikopic.jpg);
       background-size: cover;
       background-position: -285px;
       background-repeat: no-repeat;
-    }
+    } */
   
     #about-text {
       font-size: 20px;
@@ -603,14 +603,14 @@
   }
   
   @media (min-width: 461px) and (max-width: 480px) {
-    .bg {
+    /* .bg {
   
       background-image: url(/images/kimikopic.jpg);
       background-size: cover;
       background-position: -285px;
       background-repeat: no-repeat;
     }
-  
+   */
     #about-text {
       font-size: 20px;
     }
