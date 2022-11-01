@@ -530,12 +530,16 @@
   }
   
   @media (min-width: 394px) and (max-width: 411px) {
+    
     .bg {
   
       background-image: url(/images/kimikopic.jpg);
       background-size: cover;
       background-position: -315px;
       background-repeat: no-repeat;
+    }
+    #mobile{
+      backdrop-filter: blur(5px);
     }
   
     #about-text {
