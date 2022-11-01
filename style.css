@@ -448,6 +448,9 @@
       background-position: center center;
       background-repeat: no-repeat;
     }
+    .modal img{
+      height: 50%;
+    }
   }
   
   @media (min-width: 301px) and (max-width: 321px) {
@@ -458,6 +461,9 @@
       background-position: -360px;
       background-position: center center;
       background-repeat: no-repeat;
+    }
+    .modal img{
+      height: 50%;
     }
   }
   
@@ -470,6 +476,9 @@
       background-position: center center;
       background-repeat: no-repeat;
     }
+    .modal img{
+      height: 50%;
+    }
   }
   
   @media (min-width: 343px) and (max-width: 359px) {
@@ -480,6 +489,9 @@
       background-position: -350px;
       background-position: center center;
       background-repeat: no-repeat;
+    }
+    .modal img{
+      height: 50%;
     }
   }
   
@@ -494,6 +506,9 @@
       background-position: center center;
       background-repeat: no-repeat;
     }
+    .modal img{
+      height: 50%;
+    }
   }
   
   @media (min-width: 375px) and (max-width: 375px) {
@@ -505,6 +520,9 @@
       background-position: center center;
       background-repeat: no-repeat;
     }
+    .modal img{
+      height: 50%;
+    }
   }
   
   @media (min-width: 376px) and (max-width: 393px) {
@@ -515,6 +533,9 @@
       background-position: -325px;
       background-position: center center;
       background-repeat: no-repeat;
+    }
+    .modal img{
+      height: 60%;
     }
   }
   
@@ -531,6 +552,9 @@
     #about-text {
       font-size: 10px;
     }
+    .modal img{
+      height: 70%;
+    }
   }
   
   @media (min-width: 412px) and (max-width: 414px) {
@@ -545,6 +569,9 @@
   
     #about-text {
       font-size: 10px;
+    }
+    .modal img{
+      height: 75%;
     }
   }
   
@@ -563,6 +590,9 @@
     #about-text {
       font-size: 10px;
     }
+    .modal img{
+      height: 75%;
+    }
   }
   
   @media (min-width: 440px) and (max-width: 460px) {
@@ -577,6 +607,9 @@
   
     #about-text {
       font-size: 20px;
+    }
+    .modal img{
+      height: 75%;
     }
   }
   
@@ -593,6 +626,9 @@
     #about-text {
       font-size: 20px;
     }
+    .modal img{
+      height: 75%;
+    }
   }
   
   @media (min-width: 481px) and (max-width: 509px) {
@@ -607,6 +643,9 @@
   
     #about-text {
       font-size: 20px;
+    }
+    .modal img{
+      height: 75%;
     }
   }
   
@@ -623,6 +662,9 @@
     #about-text {
       font-size: 20px;
     }
+    .modal img{
+      height: 75%;
+    }
   }
   
   @media (min-width: 577px) and (max-width: 737px) {
@@ -636,6 +678,9 @@
   
     #about-text {
       font-size: 15px;
+    }
+    .modal img{
+      height: 85%;
     }
   }
   
