@@ -394,7 +394,7 @@
   }
 
 
-  @media (max-width:289px) {
+  /* @media (max-width:289px) {
 
     .navbar-brand {
       font-size: 10px;
@@ -473,7 +473,7 @@
       font-size: 28px;
       margin-top: 0;
     }
-  }
+  } */
 
 
   @media (max-width:700px) {
