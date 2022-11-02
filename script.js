@@ -71,3 +71,22 @@ function closeModal() {
     document.getElementById("myModal10").style.display = "none";
     document.getElementById("myModal11").style.display = "none";
 }
+
+
+// Media Querry for the hero image
+let myMediaQuery = window.matchMedia('(min-width: 600px)');
+ 
+function widthChangeCallback(myMediaQuery) {
+  if(myMediaQuery.matches) {
+    document.getElementById("img-bg").style.display = "block";
+    document.getElementById("img-bg2").style.display = "none";
+
+   } else {
+    document.getElementById("img-bg").style.display = "none";
+    document.getElementById("img-bg2").style.display = "block";
+   }
+}
+
+myMediaQuery.addEventListener('change', widthChangeCallback);
+
+widthChangeCallback(myMediaQuery);
