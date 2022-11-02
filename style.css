@@ -476,14 +476,27 @@
   } */
 
 
-  @media (max-width:700px) {
+  @media (max-width:294px) {
+    .navbar-brand {
+      font-size: 15px;
+    }
+  }
+
+  @media (min-width: 295px) and  (max-width:411px) {
+    .navbar-brand {
+      font-size: 20px;
+    }
+  }
+
+  @media (min-width: 412px) and (max-width:700px) {
 
     .modal img {
 
       height: 75%;
     }
-    #about-text {
-      font-size: 20px;
+
+    .navbar-brand {
+      font-size: 25px;
     }
   }
 
