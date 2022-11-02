@@ -1,11 +1,11 @@
-.bg {
-    width: 100%;
+/* .bg {
+    width: 100vw;
     height: 100vh;
     background-image: url("/images/kimikopic.jpg");
     background-size: cover;
     background-repeat: no-repeat;
   }
-  
+   */
   body {
     min-height: 2px;
     margin: 0;
@@ -400,14 +400,31 @@
   .widget-49 .widget-49-meeting-action a {
     text-transform: uppercase;
   }
+
+
+  @media (max-width:700px){
+
+ .modal img{
+
+  height: 50%;
+ }
+  }
+
+  @media (max-width:500px){
+
+    .navbar-brand{
+      font-size: 14px;
+      margin-top: 0;
+    }  
+     }
   
-  
+/*   
   @media (max-width: 239px) {
     .bg {
   
       background-image: url(/images/kimikopic.jpg);
       background-size: cover;
-      background-position: -400px;
+      background-position: -355px;
       background-repeat: no-repeat;
     }
   }
@@ -418,7 +435,7 @@
   
       background-image: url(/images/kimikopic.jpg);
       background-size: cover;
-      background-position: -390px;
+      background-position: -345px;
       background-repeat: no-repeat;
     }
   }
@@ -428,7 +445,7 @@
   
       background-image: url(/images/kimikopic.jpg);
       background-size: cover;
-      background-position: -380px;
+      background-position: -340px;
       background-repeat: no-repeat;
     }
   }
@@ -440,33 +457,33 @@
   
       background-image: url(/images/kimikopic.jpg);
       background-size: cover;
-      background-position: -410px;
+      background-position: -340px;
+      background-repeat: no-repeat;
+    }
+    .modal img{
+      height: 50%;
+    }
+  } 
+  
+  @media (min-width: 301px) and (max-width: 321px) {
+    .bg {
+  
+      background-image: url(/images/kimikopic.jpg);
+      background-size: cover;
+      background-position: -320px;
       background-repeat: no-repeat;
     }
     .modal img{
       height: 50%;
     }
   }
-  
-  /* @media (min-width: 301px) and (max-width: 321px) {
-    .bg {
-  
-      background-image: url(/images/kimikopic.jpg);
-      background-size: cover;
-      background-position: -360px;
-      background-repeat: no-repeat;
-    }
-    .modal img{
-      height: 50%;
-    }
-  } */
   
   @media (min-width: 322px) and (max-width: 342px) {
     .bg {
   
       background-image: url(/images/kimikopic.jpg);
       background-size: cover;
-      background-position: -360px;
+      background-position: -300px;
       background-repeat: no-repeat;
     }
     .modal img{
@@ -474,22 +491,7 @@
     }
   }
   
-  @media (min-width: 343px) and (max-width: 359px) {
-    .bg {
-  
-      background-image: url(/images/kimikopic.jpg);
-      background-size: cover;
-      background-position: -350px;
-      background-repeat: no-repeat;
-    }
-    .modal img{
-      height: 50%;
-    }
-  }
-  
-  
-  
-  @media (min-width: 360px) and (max-width: 374px) {
+  @media (min-width: 343px) and (max-width: 365px) {
     .bg {
   
       background-image: url(/images/kimikopic.jpg);
@@ -502,12 +504,14 @@
     }
   }
   
-  @media (min-width: 375px) and (max-width: 375px) {
+  
+  
+  @media (min-width: 366px) and (max-width: 375px) {
     .bg {
   
       background-image: url(/images/kimikopic.jpg);
       background-size: cover;
-      background-position: -365px;
+      background-position: -350px;
       background-repeat: no-repeat;
     }
     .modal img{
@@ -520,7 +524,7 @@
   
       background-image: url(/images/kimikopic.jpg);
       background-size: cover;
-      background-position: -512px;
+      background-position: -505px;
       background-repeat: no-repeat;
     }
     .modal img{
@@ -528,13 +532,13 @@
     }
   }
   
-  @media (min-width: 394px) and (max-width: 411px) {
+  @media (min-width: 394px) and (max-width: 414px) {
     
     .bg {
   
       background-image: url(/images/kimikopic.jpg);
       background-size: cover;
-      background-position: -315px;
+      background-position: -534px;
       background-repeat: no-repeat;
     }
     #mobile{
@@ -549,12 +553,13 @@
     }
   }
   
-  @media (min-width: 412px) and (max-width: 414px) {
+  
+  @media (min-width: 415px) and (max-width: 439px) {
     .bg {
   
       background-image: url(/images/kimikopic.jpg);
       background-size: cover;
-      background-position: -550px;
+      background-position: -420px;
       background-repeat: no-repeat;
     }
   
@@ -566,33 +571,14 @@
     }
   }
   
-  
-  
-  @media (min-width: 415px) and (max-width: 439px) {
-    /* .bg {
+   @media (min-width: 440px) and (max-width: 460px) {
+    .bg {
   
       background-image: url(/images/kimikopic.jpg);
       background-size: cover;
-      background-position: -295px;
+      background-position: -230px;
       background-repeat: no-repeat;
-    } */
-  
-    #about-text {
-      font-size: 10px;
     }
-    .modal img{
-      height: 75%;
-    }
-  }
-  
-  @media (min-width: 440px) and (max-width: 460px) {
-    /* .bg {
-  
-      background-image: url(/images/kimikopic.jpg);
-      background-size: cover;
-      background-position: -285px;
-      background-repeat: no-repeat;
-    } */
   
     #about-text {
       font-size: 20px;
@@ -603,14 +589,14 @@
   }
   
   @media (min-width: 461px) and (max-width: 480px) {
-    /* .bg {
+    .bg {
   
       background-image: url(/images/kimikopic.jpg);
       background-size: cover;
-      background-position: -285px;
+      background-position: -230px;
       background-repeat: no-repeat;
     }
-   */
+  
     #about-text {
       font-size: 20px;
     }
@@ -624,7 +610,7 @@
   
       background-image: url(/images/kimikopic.jpg);
       background-size: cover;
-      background-position: -240px;
+      background-position: -225px;
       background-repeat: no-repeat;
     }
   
@@ -641,7 +627,7 @@
   
       background-image: url(/images/kimikopic.jpg);
       background-size: cover;
-      background-position: -220px;
+      
       background-repeat: no-repeat;
     }
   
@@ -657,7 +643,6 @@
     .bg {
       background-image: url(/images/kimikopic.jpg);
       background-size: cover;
-      background-position: -180px;
       background-repeat: no-repeat;
     }
   
@@ -667,13 +652,13 @@
     .modal img{
       height: 85%;
     }
-  }
+  } 
   
   @media (min-width: 738px) and (max-width: 867px) {
     .bg {
       background-image: url(/images/kimikopic.jpg);
       background-size: cover;
-      background-position: -100px;
+       background-position:-510px;
       background-repeat: no-repeat;
     }
   
@@ -686,7 +671,7 @@
     .bg {
       background-image: url(/images/kimikopic.jpg);
       background-size: cover;
-      background-position: 120px;
+      background-position:30px;
       background-repeat: no-repeat;
     }
   
@@ -699,11 +684,10 @@
     .bg {
       background-image: url(/images/kimikopic.jpg);
       background-size: cover;
-      background-position: 65px;
       background-repeat: no-repeat;
     }
   
     #about-text {
       font-size: 20px;
     }
-  }
+  } */
