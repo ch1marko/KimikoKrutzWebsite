@@ -93,7 +93,7 @@ widthChangeCallback(myMediaQuery);
 
 
 // Close mobile menu on click outside
-/*document.addEventListener( 'click', function( evt ) {
+/* document.addEventListener( 'click', function( evt ) {
     var openedMenu = document.querySelector( '.navbar-toggler ' ),
         targetElement = evt.target;  // clicked element
 
