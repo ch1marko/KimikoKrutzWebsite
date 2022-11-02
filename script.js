@@ -88,5 +88,31 @@ function widthChangeCallback(myMediaQuery) {
 }
 
 myMediaQuery.addEventListener('change', widthChangeCallback);
-
 widthChangeCallback(myMediaQuery);
+
+
+
+// Close mobile menu on click outside
+document.addEventListener( 'click', function( evt ) {
+    var openedMenu = openedMenu = document.querySelector( '.navbar-toggler .navbar-toggler-icon' ),
+        targetElement = evt.target;  // clicked element
+
+    do {
+        if ( targetElement == openedMenu ) {
+            // This is a click inside. Do nothing, just return.
+            return;
+        }
+
+        // Go up the DOM
+        targetElement = targetElement.parentNode;
+    } while ( targetElement );
+
+    // This is a click outside.
+    openedMenu.click();
+} );
+
+
+//Scroll to top, when page refreshed
+const header= document.getElementById('header1');
+header.scrollIntoView();
+
