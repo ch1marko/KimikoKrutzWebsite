@@ -81,7 +81,7 @@ function widthChangeCallback(myMediaQuery) {
     document.getElementById("img-bg").style.display = "block";
     document.getElementById("img-bg2").style.display = "none";
 
-   } else {
+   } else if ('(max-width: 600px)') {
     document.getElementById("img-bg").style.display = "none";
     document.getElementById("img-bg2").style.display = "block";
    }
