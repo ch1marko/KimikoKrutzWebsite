@@ -491,6 +491,24 @@
     }
   }
 
+  @media (max-width: 550px) {
+    .img-bg {
+      display: none;
+    }
+
+    .img-bg2 {
+      display: block;
+    }
+  }
+
+  @media (min-width: 551px) {
+    .img-bg {
+      display: block;
+    }
+    .img-bg2 {
+      display: none;
+    }
+  }
   /*   
   @media (max-width: 239px) {
     .bg {
