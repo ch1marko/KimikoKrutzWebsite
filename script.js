@@ -14,7 +14,7 @@ window.onscroll = function () {
 
 }
 
-// Open the Modal
+// Open Photo Lightboxes
 function openModal() {
     document.getElementById("myModal").style.display = "block";
 }
