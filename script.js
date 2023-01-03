@@ -146,6 +146,16 @@ widthChangeCallback(myMediaQuery);
 
 
 //Scroll to top, when page refreshed
-const header= document.getElementById('header1');
-header.scrollIntoView();
+history.scrollRestoration = 'manual';
 
+const navLinks = document.querySelectorAll('.nav-item');
+let menuCollapse = document.getElementsByClassName('navbar-collapse');
+
+function bsCollapse(){
+   let navi = document.getElementById("navbarSupportedContent");
+   navi.classList.remove("show");
+
+};
+navLinks.forEach((l) => {
+    l.addEventListener('click',  bsCollapse)
+});
