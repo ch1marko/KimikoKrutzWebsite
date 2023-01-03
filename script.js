@@ -72,6 +72,39 @@ function closeModal() {
     document.getElementById("myModal11").style.display = "none";
 }
 
+// ---------------- DATE - CARDS
+let concerts = JSON.parse(concertInfos);
+
+function printCards(){
+    for(let concert of concerts){
+        document.getElementById("cardDate").innerHTML += `
+        <div class="card m-2 p-4" style="width: 18rem;">
+                    <div class="card-header no-border">
+                        <h5 class="card-title"></h5>
+                    </div>
+                    <div class="card-body pt-0">
+                        <div class="widget-49">
+                            <div class="widget-49-title-wrapper">
+                                <div class="widget-49-date-warning">
+                                    <span class="widget-49-date-day">${concert.day}</span>
+                                    <span class="widget-49-date-month">${concert.month}</span>
+                                </div>
+                                <div class="widget-49-meeting-info">
+                                    <span class="widget-49-pro-title">${concert.type}</span>
+                                    <span class="widget-49-meeting-time">${concert.time}</span>
+                                </div>
+                            </div>
+                            <ul class="widget-49-meeting-points">
+                                <li class="widget-49-meeting-item"><span>${concert.ensemble}</span></li>
+                                <li class="widget-49-meeting-item"><span>${concert.venue}</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>`;
+    }
+}
+
+printCards();
 
 // Media Querry for the hero image
 let myMediaQuery = window.matchMedia('(min-width: 600px)');

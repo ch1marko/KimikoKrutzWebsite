@@ -156,6 +156,10 @@
     border-radius: 8px;
   }
 
+  #cardDate{
+    margin-left: 20%;
+  }
+
   .card .card-header.no-border {
     border: 0;
   }

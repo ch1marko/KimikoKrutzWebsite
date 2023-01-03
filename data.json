@@ -1,0 +1,25 @@
+let concertInfos = `[
+    {
+        "day": "28",
+        "month": "JAN",
+        "type": "Concert",
+        "time": "20:00h",
+        "ensemble": "XXI. JH",
+        "venue": "Konzerthaus"
+    },  {
+        "day": "14",
+        "month": "MAR",
+        "type": "Concert",
+        "time": "20:00h",
+        "ensemble": "LIZARD Ensemble    ",
+        "venue": "Konzerthaus"
+    },  {
+        "day": "22",
+        "month": "DEC",
+        "type": "Concert",
+        "time": "20:00h",
+        "ensemble": "Radiosymphonieorchester Wien",
+        "venue": "Konzerthaus"
+    } 
+
+]`;
