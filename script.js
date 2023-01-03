@@ -19,13 +19,13 @@ function openModal() {
     document.getElementById("myModal").style.display = "block";
 }
 
-function openModal1(){
-    document.getElementById("myModal1").style.display = "block"; 
+function openModal1() {
+    document.getElementById("myModal1").style.display = "block";
 }
-function openModal2(){
-    document.getElementById("myModal2").style.display = "block"; 
+function openModal2() {
+    document.getElementById("myModal2").style.display = "block";
 }
-function openModal3(){
+function openModal3() {
     document.getElementById("myModal3").style.display = "block";
 }
 
@@ -33,13 +33,13 @@ function openModal4() {
     document.getElementById("myModal4").style.display = "block";
 }
 
-function openModal5(){
-    document.getElementById("myModal5").style.display = "block"; 
+function openModal5() {
+    document.getElementById("myModal5").style.display = "block";
 }
-function openModal6(){
-    document.getElementById("myModal6").style.display = "block"; 
+function openModal6() {
+    document.getElementById("myModal6").style.display = "block";
 }
-function openModal7(){
+function openModal7() {
     document.getElementById("myModal7").style.display = "block";
 }
 
@@ -47,13 +47,13 @@ function openModal8() {
     document.getElementById("myModal8").style.display = "block";
 }
 
-function openModal9(){
-    document.getElementById("myModal9").style.display = "block"; 
+function openModal9() {
+    document.getElementById("myModal9").style.display = "block";
 }
-function openModal10(){
-    document.getElementById("myModal10").style.display = "block"; 
+function openModal10() {
+    document.getElementById("myModal10").style.display = "block";
 }
-function openModal11(){
+function openModal11() {
     document.getElementById("myModal11").style.display = "block";
 }
 // Close the Modal
@@ -70,13 +70,13 @@ function closeModal() {
     document.getElementById("myModal9").style.display = "none";
     document.getElementById("myModal10").style.display = "none";
     document.getElementById("myModal11").style.display = "none";
-}
+};
 
-// ---------------- DATE - CARDS
-let concerts = JSON.parse(concertInfos);
+// ---------------- DATE CARDS
+let concerts = JSON.parse(concertDates);
 
-function printCards(){
-    for(let concert of concerts){
+function printCards() {
+    for (let concert of concerts) {
         document.getElementById("cardDate").innerHTML += `
         <div class="card m-2 p-4" style="width: 18rem;">
                     <div class="card-header no-border">
@@ -108,16 +108,16 @@ printCards();
 
 // Media Querry for the hero image
 let myMediaQuery = window.matchMedia('(min-width: 600px)');
- 
-function widthChangeCallback(myMediaQuery) {
-  if(myMediaQuery.matches) {
-    document.getElementById("img-bg").style.display = "block";
-    document.getElementById("img-bg2").style.display = "none";
+let vidLinks = document.querySelectorAll(".vid");
 
-   } else if ('(max-width: 600px)') {
-    document.getElementById("img-bg").style.display = "none";
-    document.getElementById("img-bg2").style.display = "block";
-   }
+function widthChangeCallback(myMediaQuery) {
+    if (myMediaQuery.matches) {
+        document.getElementById("img-bg").style.display = "block";
+        document.getElementById("img-bg2").style.display = "none";
+    } else if ('(max-width: 600px)') {
+        document.getElementById("img-bg").style.display = "none";
+        document.getElementById("img-bg2").style.display = "block";
+    }
 }
 
 myMediaQuery.addEventListener('change', widthChangeCallback);
@@ -125,37 +125,19 @@ widthChangeCallback(myMediaQuery);
 
 
 
-// Close mobile menu on click outside
-/* document.addEventListener( 'click', function( evt ) {
-    var openedMenu = document.querySelector( '.navbar-toggler ' ),
-        targetElement = evt.target;  // clicked element
-
-    do {
-        if ( targetElement == openedMenu ) {
-            This is a click inside. Do nothing, just return.
-            return;
-        }
-
-        Go up the DOM
-        targetElement = targetElement.parentNode;
-    } while ( targetElement != openedMenu.click());
-
-    This is a click outside.
-    openedMenu.click();
-} );*/
-
-
-//Scroll to top, when page refreshed
+//--------------Scroll to top, when page refreshed
 history.scrollRestoration = 'manual';
 
+
+// ------------ Collapse mobile menu by clicking on link
 const navLinks = document.querySelectorAll('.nav-item');
 let menuCollapse = document.getElementsByClassName('navbar-collapse');
 
-function bsCollapse(){
-   let navi = document.getElementById("navbarSupportedContent");
-   navi.classList.remove("show");
+function bsCollapse() {
+    let navi = document.getElementById("navbarSupportedContent");
+    navi.classList.remove("show");
 
 };
-navLinks.forEach((l) => {
-    l.addEventListener('click',  bsCollapse)
+navLinks.forEach((i) => {
+    i.addEventListener('click', bsCollapse)
 });

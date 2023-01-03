@@ -1,4 +1,4 @@
-let concertInfos = `[
+let concertDates = `[
     {
         "day": "28",
         "month": "JAN",
@@ -11,7 +11,7 @@ let concertInfos = `[
         "month": "MAR",
         "type": "Concert",
         "time": "20:00h",
-        "ensemble": "LIZARD Ensemble    ",
+        "ensemble": "LIZARD Ensemble",
         "venue": "Konzerthaus"
     },  {
         "day": "22",
