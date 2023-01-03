@@ -132,6 +132,11 @@
 
   }
 
+  .copyright-footer a {
+    text-decoration: none;
+
+  }
+
   .card-margin {
     margin-bottom: 1.875rem;
   }
@@ -156,7 +161,7 @@
     border-radius: 8px;
   }
 
-  #cardDate{
+  #cardDate {
     margin-left: 20%;
   }
 
@@ -486,7 +491,7 @@
     }
   }
 
-  @media (min-width: 315px) and  (max-width:350px) {
+  @media (min-width: 315px) and (max-width:350px) {
     .navbar-brand {
       font-size: 22px;
     }
