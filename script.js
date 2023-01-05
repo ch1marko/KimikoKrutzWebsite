@@ -140,3 +140,11 @@ function bsCollapse() {
 navLinks.forEach((i) => {
     i.addEventListener('click', bsCollapse)
 });
+
+let arrs = [1,2,3,4,5];
+
+arrs.forEach(function(i){
+
+console.log(i);
+
+});
