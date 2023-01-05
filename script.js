@@ -108,7 +108,6 @@ printCards();
 
 // Media Querry for the hero image
 let myMediaQuery = window.matchMedia('(min-width: 600px)');
-let vidLinks = document.querySelectorAll(".vid");
 
 function widthChangeCallback(myMediaQuery) {
     if (myMediaQuery.matches) {
