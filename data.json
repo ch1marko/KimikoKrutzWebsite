@@ -1,25 +1,29 @@
 let concertDates = `[
     {
-        "day": "28",
-        "month": "JAN",
+        "day": "18",
+        "month": "FEB",
         "type": "Concert",
-        "time": "20:00h",
-        "ensemble": "XXI. JH",
-        "venue": "Konzerthaus"
-    },  {
-        "day": "14",
-        "month": "MAR",
-        "type": "Concert",
-        "time": "20:00h",
-        "ensemble": "LIZARD Ensemble",
-        "venue": "Konzerthaus"
-    },  {
-        "day": "22",
-        "month": "DEC",
-        "type": "Concert",
-        "time": "20:00h",
+        "time": "19:30h",
         "ensemble": "Radiosymphonieorchester Wien",
-        "venue": "Konzerthaus"
+        "venue": "Musikverein, Goldener Saal",
+        "name": "Komponist im Fokus: Mark Andre"
+
+    },  {
+        "day": "23",
+        "month": "APR",
+        "type": "Concert",
+        "time": "19:30h",
+        "ensemble": "LIZARD Ensemble",
+        "venue": "Versöhnungskirche Dornach",
+        "name": "Bubbles"
+    },  {
+        "day": "06",
+        "month": "MAY",
+        "type": "Concert",
+        "time": "19:30h",
+        "ensemble": "LIZARD Ensemble",
+        "venue": "Brucknerhaus Linz,   Mittlerer Saal",
+        "name": "Lange Nacht der Uraufführungen"
     } 
 
 ]`;

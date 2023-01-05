@@ -78,7 +78,7 @@ let concerts = JSON.parse(concertDates);
 function printCards() {
     for (let concert of concerts) {
         document.getElementById("cardDate").innerHTML += `
-        <div class="card m-2 p-4" style="width: 18rem;">
+        <div class="card m-2 p-4" style="width: 22rem;">
                     <div class="card-header no-border">
                         <h5 class="card-title"></h5>
                     </div>
@@ -97,6 +97,8 @@ function printCards() {
                             <ul class="widget-49-meeting-points">
                                 <li class="widget-49-meeting-item"><span>${concert.ensemble}</span></li>
                                 <li class="widget-49-meeting-item"><span>${concert.venue}</span></li>
+                                <li class="widget-49-meeting-item"><span>${concert.name}</span></li>
+
                             </ul>
                         </div>
                     </div>
