@@ -8,8 +8,27 @@ let concertDates = `[
         "venue": "Musikverein, Goldener Saal",
         "name": "Komponist im Fokus: Mark Andre",
         "address": "https://rso.orf.at/programm/4405"
-
-    },  {
+    },{
+        "day": "26",
+        "month": "FEB",
+        "type": "Concert",
+        "time": "19:30h",
+        "ensemble": "Concert Duo Dzomba-Krutz",
+        "venue": "Amphitheater Hall I. Bajic, Novi Sad",
+        "name": "Saxophone and Piano",
+        "address": "https://www.kimikokrutz.com/#click-date"
+    },
+    {
+        "day": "22",
+        "month": "APR",
+        "type": "Concert",
+        "time": "19:30h",
+        "ensemble": "LIZARD Ensemble",
+        "venue": "Ursulinenkirche Linz",
+        "name": "Bubbles",
+        "address": "https://www.kimikokrutz.com/#click-date"
+    },
+    {
         "day": "23",
         "month": "APR",
         "type": "Concert",
@@ -18,15 +37,15 @@ let concertDates = `[
         "venue": "Versöhnungskirche Dornach",
         "name": "Bubbles",
         "address": "https://www.ebw-ooe.at/?tribe_events=lizard-linzer-ensemble-fuer-aktuelle-musik"
-    },  {
+    },
+    {
         "day": "06",
         "month": "MAY",
         "type": "Concert",
-        "time": "19:30h",
+        "time": "19:00h",
         "ensemble": "LIZARD Ensemble",
         "venue": "Brucknerhaus Linz,   Mittlerer Saal",
         "name": "Lange Nacht der Uraufführungen",
         "address": "https://www.brucknerhaus.at/programm/veranstaltungen/lizard-6.5.2023-19-30"
-    } 
-
+    }
 ]`;
