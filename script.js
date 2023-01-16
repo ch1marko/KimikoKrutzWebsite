@@ -98,6 +98,8 @@ function printCards() {
                                 <li class="widget-49-meeting-item"><span>${concert.ensemble}</span></li>
                                 <li class="widget-49-meeting-item"><span>${concert.venue}</span></li>
                                 <li class="widget-49-meeting-item"><span>${concert.name}</span></li>
+                                <li class="widget-49-meeting-item"><a href= "${concert.address}" target="_blank"><span>Event Website and Programme</span></a></li>
+
 
                             </ul>
                         </div>

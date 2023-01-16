@@ -6,7 +6,8 @@ let concertDates = `[
         "time": "19:30h",
         "ensemble": "Radiosymphonieorchester Wien",
         "venue": "Musikverein, Goldener Saal",
-        "name": "Komponist im Fokus: Mark Andre"
+        "name": "Komponist im Fokus: Mark Andre",
+        "address": "https://rso.orf.at/programm/4405"
 
     },  {
         "day": "23",
@@ -15,7 +16,8 @@ let concertDates = `[
         "time": "19:30h",
         "ensemble": "LIZARD Ensemble",
         "venue": "Versöhnungskirche Dornach",
-        "name": "Bubbles"
+        "name": "Bubbles",
+        "address": "https://www.ebw-ooe.at/?tribe_events=lizard-linzer-ensemble-fuer-aktuelle-musik"
     },  {
         "day": "06",
         "month": "MAY",
@@ -23,7 +25,8 @@ let concertDates = `[
         "time": "19:30h",
         "ensemble": "LIZARD Ensemble",
         "venue": "Brucknerhaus Linz,   Mittlerer Saal",
-        "name": "Lange Nacht der Uraufführungen"
+        "name": "Lange Nacht der Uraufführungen",
+        "address": "https://www.brucknerhaus.at/programm/veranstaltungen/lizard-6.5.2023-19-30"
     } 
 
 ]`;

@@ -398,6 +398,11 @@
     margin-left: .5rem;
   }
 
+  .widget-49 .widget-49-meeting-points .widget-49-meeting-item a {
+    text-decoration: none;
+    /* font-weight: bold; */
+  }
+
   .widget-49 .widget-49-meeting-action {
     text-align: right;
   }
