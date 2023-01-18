@@ -16,7 +16,7 @@ let concertDates = `[
         "ensemble": "Concert Duo Dzomba-Krutz",
         "venue": "Amphitheater Hall I. Bajic, Novi Sad",
         "name": "Saxophone and Piano",
-        "address": "https://www.kimikokrutz.com/#click-date"
+        "address": "http://markodzomba.com/"
     },{
         "day": "09",
         "month": "MAR",
