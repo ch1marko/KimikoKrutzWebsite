@@ -17,6 +17,15 @@ let concertDates = `[
         "venue": "Amphitheater Hall I. Bajic, Novi Sad",
         "name": "Saxophone and Piano",
         "address": "https://www.kimikokrutz.com/#click-date"
+    },{
+        "day": "09",
+        "month": "MAR",
+        "type": "Concert",
+        "time": "19:30h",
+        "ensemble": "Radiosymphonieorchester Wien",
+        "venue": "Brucknerhaus Linz",
+        "name": "Marshall & RSO Wien",
+        "address": "https://www.brucknerhaus.at/programm/veranstaltungen/marshall-rso-wien-9.3.2023-19-30"
     },
     {
         "day": "22",
