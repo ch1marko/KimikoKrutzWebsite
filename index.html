@@ -31,7 +31,7 @@
     <!------------------------- N A V B A R -------------------------------->
     <nav id="header" class="navbar fixed-top navbar-expand-lg">
         <div id="mobile" class="container-fluid">
-            <a class="navbar-brand" href="#">Sylvia Kimiko Krutz</a>
+            <a class="navbar-brand" id="home" href="#">Sylvia Kimiko Krutz</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -40,21 +40,21 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul id="menu-list1" class="navbar-nav me-auto mb-2 mb-lg-0" style="font-family: Montserrat">
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">Home </a>
+                        <a class="nav-link" aria-current="page" onclick="scrollInTo('home')">Home </a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="#click-about">About </a>
+                        <a class="nav-link" onclick="scrollInTo('about')">About </a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="#click-photos">Media</a>
+                        <a class="nav-link" onclick="scrollInTo('media')">Media</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#click-date">Dates</a>
+                        <a class="nav-link" onclick="scrollInTo('dates')">Dates</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#click-contact">Contact</a>
+                        <a class="nav-link" onclick="scrollInTo('contact')">Contact</a>
                     </li>
                 </ul>
                 <ul class="d-flex navbar-right">
@@ -77,7 +77,7 @@
     <img id="img-bg2" src="/images/hero-pic.jpg" style="width: 100%; height: 100%" alt="">
 
     <!--------------------- A B O U T ---------------------------->
-    <div id="click-about" class="text.white">.</div> <br />
+    <div id="about" class="text.white">.</div> <br />
     <br></br>
     <div class="about1">
         <h1>ABOUT</h1>
@@ -138,7 +138,7 @@
         <br></br>
     </div>
 
-    <div id="click-photos" class="text.white">.</div><br /><br /> <br />
+    <div id="media" class="text.white">.</div><br /><br /> <br />
     <div class="about1">
         <h1>PHOTOS</h1>
     </div><br></br>
@@ -273,7 +273,7 @@
                 allowfullscreen></iframe></div>
     </div>
     <!-------------------------- D  A  T  E  S ---------------------------->
-    <br></br>
+    <br id="dates"></br>
     <div id="click-date" class="text.white">.</div> <br />
     <br></br>
     <div class="dates1">
@@ -283,7 +283,7 @@
 
     </div>
 
-    <div id="click-contact" class="text.white">.</div>
+    <div id="contact" class="text.white">.</div>
 
     <!---------- C O N T A C T ---------------->
     <div class="dates1">

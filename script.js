@@ -144,3 +144,12 @@ function bsCollapse() {
 navLinks.forEach((i) => {
     i.addEventListener('click', bsCollapse)
 });
+
+function scrollInTo(id){
+    var elmnt = document.getElementById(id);
+    elmnt.scrollIntoView({
+        behavior: "smooth",
+        block:"start",
+        inline:"nearest"
+    });
+}
